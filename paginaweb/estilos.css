@@ -1,0 +1,157 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body{
+    background:#6b0e1ce0 ;
+    font-family: "Comic Sans MS";
+    padding-top: 300px;
+    transition: padding-top 0.5s ease;
+    margin:auto;
+}
+
+header{
+        width: 100%;
+        height: 200px;
+        background: #000000e0 ;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        
+}
+
+header h1{
+        font-size: 80px;
+        color: white;
+        line-height: 30px;
+        font-weight: 300;
+        transition: all 0.3s ease;
+}
+
+header h1 i{
+        font-weight: bold;
+        text-transform: uppercase;
+}
+
+header nav{
+	position: absolute;
+	bottom: 0px;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	background: white;
+}
+
+header nav a{
+        color: black;
+        display: inline-block;
+        padding: 15px 30px;
+        line-height: 1;
+        text-decoration: none;
+        border-radius: 10px;
+}
+
+header nav a:hover{
+        background-color: rgba(0, 0, 0, 0.2) ;
+}
+
+p{
+    margin-bottom: 2rem;
+    line-height: 2;
+    color:rgb(230, 218, 218);
+}
+
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 10px;
+    padding: 20px;
+    background: rgb(102, 8, 8);
+    border-radius: 10px;
+}
+
+body.sticky-header{
+    padding-top: 100px;
+}
+
+body.sticky-header header{
+    height: 60px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30 px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+}
+
+#boton{
+    background: #31384a;
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
+
+div.galeria{
+    margin: 20px 20px;
+    width: 300px;
+    
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+
+div.pie{
+    text-align: center;
+    padding: 10px;
+}
